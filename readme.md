@@ -1,7 +1,8 @@
+
+<image src="documentation/preview.gif"/>
+
 ## Filament Navigation Holder
 > A holder package for filament navigation scroll position
-
-![](documentation/preview.gif)
 
 <p align="center">
     <a href="https://packagist.org/packages/koalafacade/filament-navigation-holder"><img src="https://img.shields.io/packagist/v/koalafacade/filament-crash?color=F28D1A&style=for-the-badge"/></a>
