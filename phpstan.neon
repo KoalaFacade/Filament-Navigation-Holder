@@ -1,0 +1,19 @@
+
+parameters:
+    paths:
+        - src/
+
+    # Level 9 is the highest level
+    level: 5
+
+    reportUnmatchedIgnoredErrors: false
+
+    ignoreErrors:
+        -
+            message: '#Call to an undefined method [a-zA-Z0-9\\_]+::layout\(\)#'
+            path: app/Http/Controllers/Livewire/*
+#
+#    excludePaths:
+#        - ./*/*/FileToBeExcluded.php
+#
+#    checkMissingIterableValueType: false
