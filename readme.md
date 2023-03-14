@@ -1,5 +1,5 @@
 
-<image src="documentation/preview.gif"/>
+<image src="documentation/preview.gif" width="100%"/>
 
 ## Filament Navigation Holder
 > A holder package for filament navigation scroll position
