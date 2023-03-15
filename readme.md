@@ -14,5 +14,5 @@
 This is a simple package that automatically serving javascript to filament code.
 just install and nothing else
 ```bash
-composre require koalafacade/filament-navigation-holder
+composer require koalafacade/filament-navigation-holder
 ```
