@@ -3,8 +3,8 @@
 namespace KoalaFacade\FilamentNavigationHolder;
 
 use Filament\Support\Assets\Js;
-use Spatie\LaravelPackageTools\Package;
 use Filament\Support\Facades\FilamentAsset;
+use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class FilamentNavigationHolderServiceProvider extends PackageServiceProvider
@@ -16,11 +16,11 @@ class FilamentNavigationHolderServiceProvider extends PackageServiceProvider
         $package->name(static::$name)
             ->hasAssets();
 
-            FilamentAsset::register(
-                assets: [
-                    Js::make(static::$name, __DIR__ . '/../resources/dist/app.js'),
-                ],
-                package: 'koalafacade/filament-navigation-holder'
-            );
+        FilamentAsset::register(
+            assets: [
+                Js::make(static::$name, __DIR__ . '/../resources/dist/app.js'),
+            ],
+            package: 'koalafacade/filament-navigation-holder'
+        );
     }
 }
